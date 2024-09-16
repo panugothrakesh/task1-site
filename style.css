@@ -1,0 +1,1041 @@
+:root {
+    font-size: 10px;
+    --primary-color: #553D67;
+    --secondary-color: #6D7D8B;
+    --highlight-color: #F64C72;
+    --border-gray-light: #BBC8D4;
+    --shadow-color: #655A5A;
+    --tertiary-color: #697694;
+    --button-padding: 3.6em 1.6rem;
+    --h1head-md: 4.8rem;
+    --h2head-md: 4rem;
+    --subhead1-md: 2.6rem;
+    --subhead2-md: 2.4rem;
+    --subhead3-md: 2rem;
+    --placeholder: #BBC8D4;
+    --text-default-md: 1.8rem;
+    --smallhead-md: 1.4rem;
+    --button-md: 1.6rem;
+    --logo-sm: .6rem;
+    --space-min: 1.5rem;
+  }
+.mulish, .mulish *{
+    font-family: "Mulish", sans-serif;
+}
+button::placeholder{
+    color: var(--placeholder);
+}
+.opensans,.opensans *{
+    font-family: "Open Sans", sans-serif;
+}
+button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.pink{
+    color: var(--highlight-color);
+}
+h1{
+    font-size: var(--h1head-md);
+}
+h2{
+    font-size: var(--h2head-md);
+}
+
+.justify{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.justifycol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Common for both */
+header{
+    padding: var(--space-min) 0;
+}
+/* body{background-color: green;} */
+.navbar{
+    flex-direction: column;
+}
+ul{
+    margin: 2.4em 0;
+}
+a{
+    text-decoration: none;
+    margin-left: 2.25em;
+}
+li{
+    list-style: none;
+    font-size: var(--subhead3-md);
+    font-weight: 400;
+    color: var(--primary-color)
+}
+a:first-child{
+    margin-left: 0;
+}
+.technofevers span{
+    font-size: var(--text-default-md);
+    font-weight: 700;
+}
+.technofevers{
+    font-size: var(--text-default-md);
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.burger{
+    display: none;
+}
+
+.hero{
+    background-image: url('./assets/background.png');
+    background-position: center;
+    padding-top: 11.1rem;
+    padding-bottom: 17.1rem ;
+}
+.herodiv{
+    color: white;
+    text-align: center;
+}
+.herodiv h1{
+    font-weight: 800;
+    line-height: 6rem;
+}
+.herodiv p{
+    font-size: var(--text-default-md);
+    margin-top: 1.5rem;
+    line-height: 3rem;
+    font-weight: 600;
+    letter-spacing: .3px;
+}
+.stretch{
+    align-items: stretch;
+}
+.cta *{
+    font-size: var(--button-md);
+    border-radius: .2em;
+    box-sizing: border-box;
+}
+.cta{
+    margin-top: 5rem;
+    justify-content: space-between;
+}
+.cta input{
+    padding: 1.6rem 1.6rem ;
+    border: 2px solid var(--border-gray-light);
+}
+.cta button{
+    padding: 1.8rem 3.6rem ;
+    border: none;
+    background-color: var(--highlight-color);
+    color: white;
+    font-weight: 700;
+}
+.aboutcontainer p{
+    margin: 5.6rem;
+    font-size: var(--text-default-md);
+    color: var(--secondary-color);
+    text-align: center;
+    width: 80%;
+    line-height: 2.93rem;
+}
+
+.linerel{
+    display: flex;
+    visibility: visible;
+    margin-top: -1.4rem;
+    width: 100%;
+    position: relative;
+}
+.aboutcontainer p{
+    margin: 5.6rem;
+    font-size: var(--text-default-md);
+    color: var(--secondary-color);
+    text-align: center;
+    width: 80%;
+    line-height: 2.93rem;
+}
+
+.linerel{
+    display: flex;
+    visibility: visible;
+    margin-top: -1.4rem;
+    width: 100%;
+    position: relative;
+}
+.linerel hr{
+    width: 100%;
+    border: .5px solid black;
+    position: absolute;
+}
+.linerel hr{
+    width: 100%;
+    border: .5px solid black;
+    position: absolute;
+}
+.circles{
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 7.7rem;
+}
+.circles div{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 5rem;
+    background-color: white;
+    border: .5px solid black;
+    z-index: 5;
+}
+.circles{
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 7.7rem;
+}
+.circles div{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 5rem;
+    background-color: white;
+    border: .5px solid black;
+    z-index: 5;
+}
+.bottomcap li{
+    color: var(--secondary-color);
+    font-size: var(--text-default-md);
+}
+.bottomcap li{
+    color: var(--secondary-color);
+    font-size: var(--text-default-md);
+}
+.aboutcontainer h1{
+    font-weight: 400;
+    color: var(--primary-color);
+    position: relative;
+}
+.aboutcontainer h1::before{
+    content: "";
+    position: absolute;
+    background-color: var(--highlight-color);
+    height: .2rem;
+    width: 60%;
+    left: 1em;
+    bottom: -.3em;
+}
+
+.highlights *{
+    text-align: center;
+}
+.highlights div{
+    box-shadow: 0px 10px 15px 0px rgba(6, 0, 0, 0.25);
+    padding: 3.8rem 0 7.5rem 0;
+    background-color: white;
+}
+.highlights div h3{
+    font-size: var(--subhead1-md);
+    font-weight: 400;
+    color: var(--primary-color);
+    margin-top: 1rem;
+}
+.highlights div p{
+    font-size: var(--text-default-md);
+    font-weight: 400;
+    margin-top: 1rem;
+    line-height: 2.93rem;
+    color: var(--secondary-color);
+}
+.acheivments *{
+    color: white;
+    text-align: center;
+}
+.acheivments h3{
+    font-weight: 700;
+}
+.acheivments p{
+    font-size: var(--text-default-md);
+    line-height: 2.93rem;
+    margin-top: 1.7rem;
+}
+.metrics{
+    width: 100%;
+    display: grid;
+    margin-top: 2.7rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+.metrics div h1{
+    font-weight: 700;
+}
+.metrics div p{
+    font-size: var(--smallhead-md);
+    margin-top: -.4rem;
+}
+
+.wdwd h1{
+    font-weight: 400;
+    color: var(--primary-color);
+    position: relative;
+}
+
+.wdwd h1::before{
+    content: "";
+    position: absolute;
+    background-color: var(--highlight-color);
+    height: .3rem;
+    width: 40%;
+    left: 2.6em;
+    bottom: -.5em;
+}
+
+.wdwdgrid div{
+    box-shadow: 0px 10px 15px 0px rgba(101, 90, 90, 0.25);
+    padding: 3.6rem 1rem;
+}
+.wdwdgrid div *{
+    text-align: center;
+}
+
+.wdwdgrid div:nth-child(5) p{
+    width: 100%;
+}
+
+.wdwdgrid div h3{
+    margin-top: 2.4rem;
+    font-size: var(--subhead1-md);
+    font-weight: 400;
+    color: var(--primary-color);
+}
+.wdwdgrid div p{
+    margin-top: 1.5rem;
+    width: 90%;
+    font-size: var(--text-default-md);
+    font-weight: 400;
+    color: var(--secondary-color);
+    line-height: 2.93rem;
+}
+.mission{
+    margin: 15rem 0 0 0;
+}
+.mission div{
+    background-color: var(--highlight-color);
+    color: white;
+    height: 67rem;
+    padding: 0 10rem;
+}
+.mission div h2{
+    font-weight: 700;
+}
+.mission div p{
+    margin-top: 3.5rem;
+    font-size: var(--text-default-md);
+    text-align: center;
+    line-height: 2.93rem;
+    font-weight: 500;
+}
+.mission div button{
+    margin-top: 6.5rem;
+    padding: 1.8rem 3.6rem ;
+    font-size: var(--button-md);
+    background-color: var(--highlight-color);
+    border: 2px white solid;
+    border-radius: .4rem;
+    color: white;
+    font-weight: 700;
+}
+.team{
+    margin: 15rem 0 0 0;
+}
+
+.team h1{
+    font-weight: 400;
+    color: var(--primary-color);
+    position: relative;
+}
+.team h1::before{
+    content: "";
+    position: absolute;
+    background-color: var(--highlight-color);
+    height: .3rem;
+    width: 50%;
+    left: 2em;
+    bottom: -.5em;
+}
+.wrap{
+    position: relative;
+    overflow-x: auto;
+    width: 100%;
+    height: 70rem;
+}
+.card{
+    width: 33.7rem;
+    border: 1px solid white;
+    border-radius: .8rem;
+    overflow: hidden;
+    box-shadow: 0px 10px 15px 0px rgba(101, 90, 90, 0.25);
+    background: #fff;
+    margin-left: 4rem;
+}
+.card:first-child{
+    margin-left: 0;
+}
+.card div{
+    padding: 0 1rem 4.8rem 2rem;
+}
+.card img{
+    width: 100%;
+    object-fit: cover;
+}
+.card h4{
+    margin-top: 2.8rem;
+    font-size: var(--subhead2-md);
+    color: var(--primary-color);
+}
+.card div small{
+    margin-top: .2rem;
+    color: var(--secondary-color);
+}
+.card p{
+    margin-top: 1.3rem;
+    font-size: var(--button-md);
+    color: var(--tertiary-color);
+    line-height: 2.6rem;
+}
+.testimonials{
+    margin-top: 8rem;
+}
+
+.testimonials h1{
+    font-weight: 400;
+    text-align: center;
+    color: var(--primary-color);
+    position: relative;
+}
+.next{display: none;}
+
+.rating{
+    width: 36.7rem;
+    padding: 8.1rem 1rem 4.6rem 4.3rem;
+}
+.rating p{
+    margin-top: 2.7rem;
+    font-size: var(--text-default-md);
+    color: var(--secondary-color);
+    line-height: 2.93rem;
+}
+.prof{
+    margin-top: 6rem;
+    padding: 0;
+}
+
+.prof img{
+    height: 5.6rem;
+    width: 5.6rem;
+}
+.rating div{
+    width: 100%;
+    padding: 0;
+}
+.prof div{
+    padding: 0;
+    margin-left: 1.3rem;
+}
+.prof .justifycol{
+    align-items: start;
+}
+.prof div h4{
+    margin: 0;
+    font-size: var(--text-default-md);
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+.prof div p{
+    margin: 0;
+    font-size: var(--smallhead-md);
+    font-weight: 400;
+}
+
+.stars{
+    margin: 0.1rem 0;
+    width: 100%;
+    justify-content: start;
+}
+.stars li{
+    margin: 0 .315rem;
+}
+.lastcta{
+    background-color: var(--highlight-color);
+    color: white;
+    padding: 6.4rem 0;
+}
+.lastcta h1{
+    font-weight: 600;
+    text-align: center;
+}
+.lastcta p{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: var(--subhead3-md);
+    line-height: 3.26rem;
+}
+.lcta{
+    border-radius: .4rem;
+    padding: 1.6rem 1.6rem ;
+    border: 2px solid var(--border-gray-light);
+    margin-top: 3rem;
+    font-size: var(--subhead3-md);
+}
+.leftright{
+    margin: -10rem 1rem 0 12rem;
+    display: unset;
+    visibility: visible;
+    cursor: pointer;
+    position: absolute;
+    padding: 0 0rem 0 2rem;
+    right: 0;
+    font-size: 2.2rem;
+    color: var(--primary-color);
+    border: none;
+    background-color: transparent;
+}
+.leftright img{
+    padding: 0 2rem;
+}
+
+.foot p{
+    font-size: var(--smallhead-md);
+    color: var(--primary-color);
+    line-height: 2.1rem;
+}
+
+
+
+
+
+
+@media screen and (max-width: 899px){
+    .foot{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 2.4rem 0rem 4.8rem 0rem;
+        width: 100%;
+    }
+    .foot p{
+        text-align: center;
+    }
+    /* body{background-color: red;} */
+    .leftright{margin: -16rem 1rem 0 12rem;}
+    header{
+        padding: 2.5rem 2.1rem;
+    }
+    .navbar{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header img{
+        width: 3.3rem;
+    }
+    .links{
+        display: none;
+    }
+    .burger{
+        display: block;
+        visibility: visible;
+        box-sizing: border-box;
+        width: 3.6em;
+        padding: .8em;
+    }
+    .technofevers{
+        font-size: var(--logo-sm);
+        font-weight: 700;
+        color: var(--primary-color);
+    }
+    .technofevers span{
+        font-size: var(--logo-sm);
+        font-weight: 700;
+    }
+    h1{
+        font-size: var(--h2head-md);
+    }
+    .break{
+        display: none;
+    }
+    .hero{
+        padding: 7.7rem 2rem 6.1rem 2rem;
+    }
+    .herodiv h1{
+        font-weight: 800;
+        line-height: 5rem;
+    }
+    .herodiv p{
+        font-size: var(--button-md);
+        margin-top: 2rem;
+        line-height: 2.6rem;
+        font-weight: 600;
+    }
+    .cta{
+        margin-top: 3rem;
+        flex-direction: column;
+        width: 100%;
+    }
+    .cta input{
+        font-size: 1.5rem;
+        width: 30rem;
+    }
+    .cta button{
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        width: 16rem;
+    }
+    .linerel{
+        display: none;
+    }
+    .bottomcap{
+        display: none;
+    }
+    .aboutus{
+        padding: 5rem 0 0rem 0;
+    }
+    .aboutcontainer{
+        background-color: white;
+        transform: translateY(-6rem);
+        padding: 4rem 2rem 2.6rem 2rem;
+        box-shadow: 0px 10px 15px 0px rgba(126, 97, 97, 0.25);
+    }
+    .aboutcontainer h1{
+        font-weight: 400;
+        color: var(--primary-color);
+        position: relative;
+    }
+    .aboutcontainer h1::before{
+        content: "";
+        position: absolute;
+        background-color: var(--highlight-color);
+        height: .2rem;
+        width: 60%;
+        left: 1em;
+        bottom: -.3em;
+    }
+    .aboutcontainer p{
+        width: 100%;
+        margin-top: 6.4rem;
+        font-size: var(--button-md);
+        line-height: 2.6rem;
+    }
+    .highlights{
+        position: relative;
+        position: relative;
+        z-index: 10;
+        margin: 4rem 2.4rem 0 2.4rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, minmax(0, 1fr));
+        gap: 2.5rem;
+    }
+    .highlights div{
+        padding: 2.6rem 2.5rem 3.6rem 2.5rem;
+    }
+    .highlights div img{
+        scale: .9;
+    }
+    .highlights div h3{
+        font-size: 2.2rem;
+        margin-top: .2rem;
+    }
+    .highlights div p{
+        font-size: var(--button-md);
+        margin-top: .68rem;
+        line-height: 2.6rem;
+    }
+    .acheivments{
+        transform: translateY(-9rem);
+        background-color: var(--highlight-color);
+        padding: 12rem 0rem;
+    }
+    .acheivments h2{
+        font-size: 3rem;
+        margin-top: .2rem;
+        font-weight: 700;
+    }
+    .acheivments p{
+        font-size: var(--button-md);
+        line-height: 2.6rem;
+        margin-top: 2rem;
+        width: 80%;
+    }
+    .metrics{
+        width: 100%;
+        display: grid;
+        margin-top: 2.7rem;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 5.5rem;
+    }
+    .metrics div h1{
+        font-weight: 700;
+        font-size: var(--subhead2-md);
+    }
+    .metrics div p{
+        font-size: var(--smallhead-md);
+        margin-top: -.4rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .wdwd{
+        padding: 0 2.6rem;
+        width: 100%;
+    }
+    .wdwdgrid{
+        display: grid;
+        margin-top: 10rem;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2.5rem;
+    }
+    .wdwdgrid div{
+        padding: 2.4rem 1rem;
+    }
+    .wdwdgrid div img{
+        scale: .8;
+    }
+    .wdwdgrid div h3{
+        margin-top: 1.6rem;
+        font-size: var(--subhead3-md);
+    }
+    .wdwdgrid div p{
+        width: 95%;
+        margin-top: 1.6rem;
+        font-size: var(--button-md);
+    }
+    .mission img{
+        display: none;
+    }
+    .mission div{
+        height: 67rem;
+        padding: 0 1.5rem;
+    }
+    .mission div h2{
+        font-size: 3rem;
+    }
+    .mission div p{
+        margin-top: 3.5rem;
+        font-size: var(--button-md);
+    }
+    .mission div button{
+        margin-top: 6.5rem;
+    }
+    .wrap{
+        height: 150rem;
+    }
+    .team div > .horizontal{
+        flex-direction: column;
+        margin: 6.8rem 6.6rem 0 6.6rem;
+    }
+    .card div{
+        padding: 0 1.3rem 3.2rem 1.3rem;
+    }
+    .card{
+        width: 100%;
+        margin: 2rem 0rem;
+    }
+    .card h4{
+        margin-top: 2rem;
+        margin-bottom: .4rem;
+        line-height: 1.73rem;
+        font-weight: 400;
+        font-size: var(--button-md);
+    }
+    .card div small{
+        font-size: .93rem;
+    }
+    .card p{
+        margin-top: .85rem;
+        font-size: 1.062rem;
+        line-height: 1.7rem;
+    }
+    .testimonials > .wrap{
+        overflow-x: auto;
+        width: 100%;
+        position: relative;
+        height: 70rem;
+        padding: 8rem 0rem;
+    }
+    .testimonials div > .horizontal{
+        position: absolute;
+    }
+    .testimonials div .horizontal > .card{
+        padding: 7.6rem 1rem 0rem 3.6rem;
+    }
+    .testimonials div .horizontal .card > .prof{
+        padding: 0;
+    }
+    .testimonials div .horizontal .card > p{
+        margin-top: 2.2rem;
+        font-size: 1.5rem;
+        line-height: 2.465rem;
+    }
+    .testimonials div .horizontal .card > div{
+        margin-top: 4rem;
+    }
+    .testimonials div .horizontal .card div > div{
+        margin-left: .6rem;
+        margin-top: 2.5rem;
+    }
+    .testimonials div .horizontal .card div > img{
+        scale: .83;
+    }
+    .testimonials div .horizontal .card div div > p{
+        margin-top: 1rem;
+    }
+    .testimonials div .horizontal > .card{
+        flex: 1;
+        width: 30.8rem;
+        margin-left: 2.6rem;
+    }
+    .testimonials h1::before{
+        content: "";
+        position: absolute;
+        background-color: var(--highlight-color);
+        height: .3rem;
+        width: 48%;
+        left: 3em;
+        bottom: -.5em;
+    }
+    .lastcta{
+        padding: 9rem 1.8rem;
+    }
+    .lastcta p{
+        font-size: var(--button-md);
+        line-height: 2.6rem;
+    }
+    .lcta{
+        width: 80%;
+        font-size: var(--button-md);
+
+    }
+}
+
+
+@media screen and (min-width: 900px){
+    .break{
+        display: unset;
+    }
+    .cta input{
+        padding: 1.6rem 1.6rem ;
+        border: 2px solid var(--border-gray-light);
+    }
+    .cta button{
+        width: 16.5rem;
+        margin-left: 1.2rem;
+    }
+    .aboutcontainer{
+        background-color: white;
+        transform: translateY(-6rem);
+        padding: 4rem 3rem 6.5rem 3rem;
+        box-shadow: 0px 10px 15px 0px rgba(126, 97, 97, 0.25);
+    }
+    .bottomcap{
+        display: flex;
+        visibility: visible;
+        margin-top: 1.2rem;
+        width: 90%;
+        justify-content: space-between;
+        margin-left: 5rem;
+    }
+    .highlights{
+        position: relative;
+        z-index: 10;
+        margin: 0 14rem;
+        display: grid;
+        grid-template-columns: repeat(1, 36.7rem);
+        grid-template-rows: repeat(1, minmax(0, 1fr));
+        gap: 3rem;
+    }
+    .acheivments{
+        transform: translateY(-11rem);
+        background-color: var(--highlight-color);
+        padding: 13.7rem 0;
+    }
+    .wdwd{
+        padding: 0 6.3rem;
+        width: 100%;
+    }
+    .wdwdgrid{
+        display: grid;
+        align-items: start;
+        margin-top: 10rem;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        gap: 3rem;
+        row-gap: 4rem;
+    }
+    .wdwdgrid div{
+        min-height: 40.5rem;
+    }
+    .mission img{
+        display: none;
+    }
+    .mission div{
+        height: 68rem;
+    }
+    .mission div p{
+        margin-top: 4rem;
+    }
+    .mission div button{
+        margin-top: 7.4rem;
+    }
+    .horizontal{
+        position: absolute;
+        padding: 11.8rem 6rem 6.6rem 5rem;
+    }
+    .card div small{
+        font-size: var(--smallhead-md);
+    }
+    .wrap{
+        position: relative;
+        overflow-x: auto;
+        width: 100%;
+        height: 70rem;
+    }
+    .next{
+        display: unset;
+        visibility: visible;
+        cursor: pointer;
+        margin: -5rem 1rem 0 12rem;
+        position: absolute;
+        padding: 0 2rem 0 2rem;
+        right: 0;
+        font-size: 2.2rem;
+        color: var(--primary-color);
+        border: none;
+        background-color: transparent;
+    }
+    .next img{
+        margin-left: 1rem;
+        height: 1.2rem;
+        width: .7rem;
+    }
+    .testimonials h1::before{
+        content: "";
+        position: absolute;
+        background-color: var(--highlight-color);
+        height: .3rem;
+        width: 25%;
+        left: 5.5em;
+        bottom: -.5em;
+    }
+    .foot{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 8rem 1rem;
+        width: 100%;
+    }
+    .foot p{
+        text-align: start;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width: 1440px){
+    .cta input{
+        width: 32rem;
+    }
+    .cta button{
+        width: 16.5rem;
+        margin-left: 1.2rem;
+    }
+    .aboutus{
+        padding: 3.6rem 0;
+    }
+    .aboutcontainer{
+        background-color: white;
+        transform: translateY(-9.6rem);
+        margin: 0 24rem;
+        padding: 3rem 5rem 7rem 5rem;
+        box-shadow: 0px 10px 15px 0px rgba(126, 97, 97, 0.25);
+    }
+    .bottomcap{
+        display: flex;
+        visibility: visible;
+        margin-top: 1.2rem;
+        width: 88%;
+        justify-content: space-between;
+        margin-left: 5rem;
+    }
+    .highlights{
+        position: relative;
+        z-index: 10;
+        margin: 0 14rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, minmax(0, 1fr));
+        gap: 3rem;
+    }
+    .acheivments{
+        transform: translateY(-7.5rem);
+        background-color: var(--highlight-color);
+        padding: 15.2rem 26rem 9rem 26rem;
+    }
+    .wdwd{
+        padding: 0 14rem;
+        width: 100%;
+    }
+    .wdwdgrid{
+        display: grid;
+        margin-top: 10rem;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
+        row-gap: 4rem;
+    }
+    .mission img{
+        display: unset;
+        visibility: visible;
+    }
+    .mission div{
+        height: 67rem;
+    }
+    .horizontal{
+        position: absolute;
+        padding: 11.8rem 6rem 6.6rem 14rem;
+    }
+    .card div small{
+        font-size: var(--smallhead-md);
+    }
+    .next{
+        margin: -5rem 12rem 0 12rem;
+    }
+    .foot{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 8rem 14rem;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+.border{
+    border: 1px green solid;
+}
