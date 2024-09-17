@@ -73,14 +73,15 @@ ul{
     margin: 2.4em 0;
 }
 a{
+    color: var(--primary-color);
     text-decoration: none;
-    margin-left: 2.25em;
 }
 li{
+    text-decoration: none;
+    margin-left: 2.25em;
     list-style: none;
     font-size: var(--subhead3-md);
     font-weight: 400;
-    color: var(--primary-color)
 }
 a:first-child{
     margin-left: 0;
@@ -516,7 +517,12 @@ a:first-child{
     color: var(--primary-color);
     line-height: 2.1rem;
 }
-
+.logos li{
+    margin-left: 2rem;
+}
+.logos li:first-child{
+    margin-left: 2rem;
+}
 
 
 
